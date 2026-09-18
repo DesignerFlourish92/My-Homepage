@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "John Smith"
-  pronouns         : # example: "she/her"  
+  pronouns         : # example: "she/her"
   bio              : "LLM Researcher"
   location         : "Earth"
   employer         : "University"
@@ -36,9 +36,9 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : 
+  orcid            :
   semantic         : # URL
-  pubmed           : 
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
 
@@ -46,9 +46,9 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "mcptest-user" # Username - Update with your username on the site
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github           : "DesignerFlourish92" # Username - Update with your username on the site
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   artstation       : # Username
@@ -82,7 +82,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
@@ -327,8 +327,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
